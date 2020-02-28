@@ -51,6 +51,7 @@ def reduce_to_total(source_array, starting_point)
       index += 1
     end
   else
+    if starting_point = nil
     total = 0
     while index < source_array.count do
       total += source_array[index]
