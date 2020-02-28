@@ -54,4 +54,13 @@ def reduce_to_total(source_array, starting_point = 0)
     
   return total
 end
+
+
+def reduce_all_to_true(source_array)
+  index = 0
+  while index < source_array.count do
+    
+  
+  end
+end
     
