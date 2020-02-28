@@ -58,6 +58,7 @@ def reduce_to_total(source_array, starting_point)
         index += 1
       end
     end #end of if
+  end
     
   return total
 end
