@@ -50,14 +50,6 @@ def reduce_to_total(source_array, starting_point)
       total += source_array[index]
       index += 1
     end
-  else
-    if starting_point = nil
-      total = 0
-      while index < source_array.count do
-        total += source_array[index]
-        index += 1
-      end
-    end #end of if
   end
     
   return total
